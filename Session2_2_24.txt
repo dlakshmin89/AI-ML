@@ -1,0 +1,95 @@
+Session2 - 2/24
+
+What is Cloud, GCC and DataCenter?
+Cloud = Using someone else’s computers (servers) over the internet instead of your own.
+Eg- Salesforce, google drive, Microsoft 365
+The software and data are stored in big remote facilities (data centers).
+Cloud provides:
+	• Storage
+	• Computing power
+	• Databases
+	• Applications
+Delivered over the internet.
+Eg of cloud providers: Amazon Web Services (AWS),Microsoft Azure, Google Cloud
+
+A Data Center is a physical building filled with:
+	• Servers
+	• Networking equipment
+	• Storage systems
+	• Cooling systems
+	• Backup power
+It’s where cloud systems actually live.
+
+GCC(Government Community Cloud) is a special version of the cloud designed for U.S. government organizations.
+It has:
+	• Higher security
+	• Compliance requirements
+	• Data stored only in approved US data centers
+	• FedRAMP compliance
+
+Microsoft has:
+	• Commercial Cloud
+	• GCC
+	• GCC High
+	• DoD (Department of Defense)
+GCC is used by:
+	• Federal agencies
+	• State/local governments
+	• Defense contractors
+	
+Government data includes:
+	• Citizen records
+	• Defense information
+	• Sensitive documents
+So they cannot use regular public cloud environments.
+They need:
+	• Isolated infrastructure
+	• Stricter background checks
+	• US-based data storage
+
+Difference between language and framework?
+Programming Language is a language is how you talk to the computer.
+Eg - Python, Java, JavaScript
+A framework is a ready-made structure built using a language that helps you build applications faster.
+Eg: Django (built using Python), Spring Framework (built using Java), React (used with JavaScript)
+Think of building a house:
+	• Language = raw materials (cement, bricks, steel)
+	• Framework = pre-designed house blueprint + structure
+You can build everything from scratch using just a language.
+But frameworks give you:
+	• Pre-written code
+	• Structure
+	• Best practices
+	• Security setup
+	• Routing
+	• Database handling
+
+What is TDD(test driven development)?
+TDD is a way of writing code where:
+	• You write the test first
+	• Then write the code
+	• Then improve the code
+Step 1: Write a Test (Red)
+Write a test that describes what the code should do.
+It will fail (because the code doesn’t exist yet).
+Step 2: Write Code (Green)
+Write the minimum code needed to make the test pass.
+Don’t overbuild. Just make it work.
+Step 3: Refactor
+Clean up the code:
+	• Improve structure
+	• Remove duplication
+	• Make it readable
+Run tests again to ensure nothing broke.
+Especially in:
+	• Banking (Java systems)
+	• Enterprise apps
+	• Salesforce Apex development
+	• AI backend services
+Because it:
+	•  Reduces bugs
+	•  Improves design
+	•  Makes refactoring safe
+	•  Creates automatic documentation
+	•  Improves code confidence
+It is developer-level automated testing.

@@ -1,0 +1,30 @@
+Session8 - 3/5
+What is self in a function?
+In Python, self refers to the current object (instance) of a class. It allows a function inside a class (called a method) to access the variables and other methods of that specific object.
+Imagine a classroom.
+Teacher says:
+"Everyone tell your name."
+Each student says:
+	• "My name is Lakshmi"
+	• "My name is Ravi"
+	• "My name is Sara"
+Here “my” = self.
+It refers to the person speaking.
+So in simple words
+self means "this object itself".
+It helps a function know which object's data it should use.
+
+class Person:
+    def say_name(self, name):
+        self.name = name
+        print("My name is", self.name)
+
+p1 = Person()
+p1.say_name("Lakshmi")
+
+p2 = Person()
+p2.say_name("Ravi")
+
+Output:
+My name is Lakshmi
+My name is Ravi

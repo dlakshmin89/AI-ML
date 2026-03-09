@@ -1,0 +1,5 @@
+Session5 - 3/2
+
+What is Prompt engineering?
+Prompt Engineering is the process of designing and structuring effective inputs (prompts) to guide AI models like ChatGPT to generate accurate, relevant, and high-quality outputs.
+It involves understanding how large language models work and crafting clear, specific, and context-rich instructions so the model produces the desired result.

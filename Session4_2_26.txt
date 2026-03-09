@@ -1,0 +1,30 @@
+Session 4 - 2/26
+
+What is the different datatypes in python?
+Python has built-in data types such as numeric types like int, float, and complex(eg:3 + 4j ); sequence types like string, list, and tuple(eg:coordinates = (10, 20)); mapping type like dictionary(eg: person = {"name": "Lakshmi", "age": 30}); set types like set and frozenset(eg: nums = {1, 2, 3}); boolean type; and None type. Python is dynamically typed, meaning we don’t have to explicitly declare the data type.
+
+• Mutable → Can be changed after creation These can be changed in memory.
+
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers)
+Output:
+
+[1, 2, 3, 4]
+Here the same list is modified.
+
+• Immutable → Cannot be changed after creation
+
+name = "Lakshmi"
+name = name + " D"
+print(name)
+This does NOT modify the original string.
+Instead, Python creates a new string object.
+
+What will edit Environment variables do?
+Editing environment variables modifies system-level configuration values that applications use during execution. For example, adding Python to the PATH variable allows us to run Python commands from any directory in the command prompt.
+Editing environment variables helps:
+	• Configure development tools
+	• Run programs from any folder
+	• Store API keys securely (instead of hardcoding)
+	• Switch between different versions of software

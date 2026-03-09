@@ -1,0 +1,42 @@
+Session 6 - 3/3
+What happens if you use = or == in if loop
+The difference between = and == is fundamental in programming.
+	• = is an assignment operator — it assigns a value to a variable.
+	• == is a comparison operator — it checks whether two values are equal.
+In an if condition:
+	• Using == is correct because we are checking a condition.
+	• Using = usually causes an error (in most languages like Python and Java) because assignment is not allowed inside a condition.
+
+In Python, using = inside an if condition gives a syntax error.
+However, in some languages like C or C++, = inside an if does not give an error. Instead, it assigns the value and then evaluates it, which can cause logical bugs.
+
+Add 2 floats and give the answer? - Done refer Float_add.py
+What is the difference between float and double?How to print float and double in a program?
+• Float uses 4 bytes and stores about 6–7 decimal digits.
+• Double uses 8 bytes and stores about 15–16 decimal digits, so it is more precise.
+In Python, there is no separate float and double type.
+internally Python’s float is actually stored as a double-precision number (8 bytes).
+
+print("Set is same as List in Java")
+print("Insertion order is NOTT preserved")
+print("Hetrogenious Object can be aded")
+print("Duplicates cannot cannot be added")
+print("Growable in Nature")
+print("Values shall be enclosed with flower brackets")
+print("Mutable in Nature ")
+set = {"1", "2", 23,45.45454,None,True,False}
+# print(set[0])
+# print(set[-1])
+# set[1] = 99909999
+print(set)
+set.add("newStringValue")
+print(set)
+set.remove(23)
+print("After removing ", set)
+
+Run this code and see why extra values are added to "set"
+A set is unordered. So when you print it, Python may show the elements in any order
+Output may look like this : {False, True, '2', 23, '1', None, 45.45454}
+When you print again: {'2', False, True, 23, '1', None, 45.45454}
+It may look like extra values were added, but actually the order just changed.
+Sets do not allow duplicates and remove them automatically

@@ -1,0 +1,48 @@
+Session7 - 3/4
+What is the difference between creating dictionary directly with {} and with the keyword "dict"
+A dictionary can be created using {} or the dict() constructor. {} is faster and allows any key type, while dict() requires keys to be valid identifiers when using keyword arguments.
+
+1. Creating a dictionary directly with {}
+This is the most common way.
+
+my_dict = {"name": "ABC", "age": 30}
+print(my_dict)
+Output:
+
+{'name': 'ABC', 'age': 30}
+Characteristics
+	• Faster
+	• Most commonly used
+	• Works with any type of key
+Example:
+
+data = {1: "A", 2: "B"}
+
+2. Creating a dictionary using dict()
+
+my_dict = dict(name="ABC", age=30)
+print(my_dict)
+Output:
+
+{'name': 'ABC', 'age': 30}
+Characteristics
+	• Keys must be valid variable names
+	• Cannot use spaces or special characters in keys
+Example (Invalid):
+
+dict(first name="ABC")  ❌
+
+3. Another way using dict() with tuples
+
+my_dict = dict([("name", "ABC"), ("age", 30)])
+print(my_dict)
+Output:
+
+{'name': 'ABC', 'age': 30}
+
+4. Key differences
+Feature	{}	dict()
+Syntax	Curly braces	Function
+Speed	Faster	Slightly slower
+Key flexibility	Any type	Keys must be valid identifiers (when using keyword style)
+Common usage	Very common	Less common

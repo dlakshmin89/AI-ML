@@ -1,0 +1,42 @@
+Session 3 - 2/25
+
+What is the difference between compilation and interpretation?give example
+Compilation translates the entire source code into machine code before execution, making it faster at runtime. Interpretation translates and executes code line-by-line during runtime, which makes it more flexible but slower
+Compilation
+Code is translated into machine code before running.
+Interpretation
+Code is translated line-by-line while running
+
+Compilation converts the entire source code into machine code (executable file) before execution.
+Steps:
+	1. Write code
+	2. Compile it
+	3. Run compiled file
+Example languages:
+	• C++
+	• Java (partially compiled). 
+	Java is actually both:
+		• Compiled into bytecode
+		• Then interpreted by JVM
+	So it’s hybrid.
+
+Interpretation translates and executes code line by line at runtime.
+Steps:
+	1. Write code
+	2. Run it directly
+Example language:
+	• Python
+
+Feature	Compilation	Interpretation
+Translation Time	Before execution	During execution
+Speed	Faster	Slower
+Error Detection	All errors at compile time	Errors appear line-by-line
+Output	Generates executable file	No separate executable
+Example	C++, Java	Python, JavaScript
+
+
+Is Python compilation language or interpreted? Why?
+Python is interpreted because it was designed for simplicity, portability, and faster development. Instead of compiling directly to machine code, Python converts code into bytecode and executes it using an interpreter, which makes it flexible and platform-independent.
+• You write .py file
+• Python compiles it to bytecode (.pyc)
+• The Python Virtual Machine (PVM) interprets that bytecode
