@@ -1,0 +1,173 @@
+Session1 - 2/23
+
+What is Hyperpersonalization ?
+Hyperpersonalization means using data and AI to give each customer a very customized experience based on their behavior, preferences, and past actions — not just their name
+Companies use hyperpersonalization in banking, e-commerce, and CRM systems to increase engagement and customer satisfaction by showing the right content at the right time.
+AI systems behaving very human-like, Context-aware
+Personalization uses basic information like name or location. Hyperpersonalization uses real-time behavior, history, and AI predictions to customize the experience dynamically.
+
+Google nano banana and Sora(open AI)?
+Nano banana is a text to image generator,static visuals,Lightweight image tasks. Sora is a text to video generator, has moving scenes.
+
+Diffusion model
+It’s a type of AI model that learns to create data(like images) by gradually removing noise from the random noise. Its useful for generating Reaistic images, controlling style with prompts. 
+
+Who created Python and why the name Python?
+Guido Van Rossum created python in 1991. He named it after Monty python's flying circus.
+
+Why are we learning python now?
+its easy to learn. Less syntax more logic. Many LLM tools are built using Python(like OpenAI, Huggingface, Langchain Etc.).It has pre Built library, build AI agents, can process large datasets.
+
+What is RAG?
+Retrieval Augmented Generation. It means 1st it retrieves the relevant information then it generates an answer using that information.
+Flow: 
+User asks question --> System searches for relevant chunks --> Sends chunks to LLM --> LLM generates answer based on retrieved data.
+Advantages of Rag over LLM - Uses external data, is more accurate, Can access private/company dat and is Dynamic knowledge.
+
+What is MEAN and MERN?
+M- MongoDB(Database) 
+E- Express.js(Backend)
+A- Angular(Frontend)
+N- Nbode.js (Server)
+
+M- MongoDB(Database)
+E- Express.js(Backend)
+R- React(Frontend)
+N- Nbode.js (Server)
+
+Mern uses flexible UI library, One way data flow, more flexible.
+
+ETL?
+E- Extract
+T- Transport
+L- Load
+ETL is the process of extracting data from different sources, transforming it into a usable format, and loading it into a target system like a data warehouse
+Eg: Informatica,Talend,SSIS,AWS Glue and Azure Data Factory
+
+
+What is oops?
+OOPS = Object-Oriented Programming System
+OOPS is a programming methodology that organizes code into objects and classes to improve reusability, security, and maintainability.
+Encapsulation
+	“Encapsulation means wrapping data and methods together inside a class and restricting direct access to the data.”
+ It protects sensitive information.
+Example:
+In a bank account class, the balance variable is private. You can only access it using methods like deposit() or withdraw().
+Benefit:
+Improves security and data protection.
+Abstraction
+	“Abstraction means hiding complex implementation details and showing only essential functionality to the user.”
+The user sees what the object does, not how it works internally.
+Example:
+When driving a car, you use the steering wheel and pedals without knowing how the engine works.
+Benefit:
+Reduces complexity and improves usability.
+Inheritance
+	“Inheritance allows one class to inherit properties and methods from another class.”
+It promotes code reuse.
+Example:
+A ‘Car’ class can inherit from a ‘Vehicle’ class.
+Car automatically gets common features like speed and start().
+Benefit:
+Reduces code duplication and improves maintainability.
+Polymorphism
+	“Polymorphism allows the same method name to behave differently depending on the object.”
+One interface, multiple implementations.
+Example:
+A method called makeSound():
+	Dog → Bark
+	Cat → Meow
+Same method name, different behavior.
+Benefit:
+Improves flexibility and scalability.
+
+“Together, these four principles help build modular, secure, reusable, and scalable applications.”
+Or 
+Encapsulation protects data by restricting access. Abstraction hides internal complexity. Inheritance enables code reuse through parent-child relationships. Polymorphism allows the same method to behave differently across objects
+
+What are adv and disadvantages of python, why it is not used in banking, history of python, who developed, after data science why python is very famous
+Python is a high-level, easy-to-read programming language widely used in web development, automation, AI, data science, and scripting.
+Python was created by Guido van Rossum in 1991.
+He wanted a language that was:
+	• Easy to read
+	• Simple to write
+	• Powerful but beginner-friendly
+“Python is popular because of its simplicity, readability, and strong ecosystem.”
+Easy to Learn & Read
+• English-like syntax
+• Fewer lines of code
+Huge Library Support
+• Web frameworks (Django, Flask)
+• Data science (Pandas, NumPy)
+• AI/ML (TensorFlow, PyTorch)
+Strong Community Support
+• Large developer base
+• Lots of tutorials and documentation
+Versatile
+Used in:
+• Web development
+• Automation
+• AI/ML
+• DevOps
+• Data analysis
+Rapid Development
+Faster prototyping compared to Java or C++
+Disadvantages of Python
+You should always balance your answer.
+Slower Performance
+Python is interpreted, not compiled like Java or C++.
+So execution speed is slower.
+Higher Memory Usage
+Not ideal for memory-intensive applications.
+Not Ideal for Mobile Apps
+Rarely used for Android/iOS development.
+Dynamic Typing
+Errors may appear at runtime instead of compile time.
+
+“Banks prioritize performance, security, and long-term stability, which historically favored Java.”
+Many banks use:
+👉 Java
+Reasons:
+1️⃣ Java is statically typed (type safety)
+2️⃣ Better performance for large enterprise systems
+3️⃣ Strong multi-threading support
+4️⃣ Mature enterprise frameworks (like Spring)
+5️⃣ Long-term backward compatibility
+However — very important:
+⚠️ Python is used in banking, but mainly for:
+• Data analytics
+• Risk modeling
+• Fraud detection
+• AI/ML systems
+• Automation scripts
+Core transaction engines still often run on Java.
+
+Why Python Became Very Famous After Data Science?
+This is key.
+“Python became extremely popular because it became the default language for Data Science and AI.”
+Reasons:
+1️⃣ Powerful Data Libraries
+• NumPy
+• Pandas
+• Matplotlib
+2️⃣ AI & Machine Learning Support
+• TensorFlow
+• PyTorch
+• Scikit-learn
+3️⃣ Simple Syntax
+Data scientists are often mathematicians, not hardcore programmers.
+Python is easier than Java or C++.
+4️⃣ Jupyter Notebook
+Interactive coding for analysis.
+5️⃣ Big Tech Adoption
+Companies like Google, Netflix, Instagram use Python heavily.
+
+“Why is Python so popular?”
+You say:
+“Python became popular because of its simplicity, readability, and massive ecosystem of libraries, especially in data science and AI. While it may not be ideal for high-performance core banking systems, it is widely used in analytics, automation, and machine learning.”
+
+Why is AI coding done in Python and not JAVA? 
+In Java we need more boilerplate, more configuration, more verbose setup. Python is portable. can read files, Process datasheets, Handle JSON, connect to API's. Its easier and faster to build in Python since its easier to prototype.Python has massive ML libraries.1 
+
+Why production is done in JAVA (like banks etc) and not in Python?
+Banks use JAVA because of stabilty, Scalability, Security. Java has long term support releases. Predictable behaviour, powerful enterprise framework like spring framework and hibernate.Large scale systems. Transaction maangement, Secure layers,Database intergrations. Handles multi threads well. Performs consistently under heavy load.
